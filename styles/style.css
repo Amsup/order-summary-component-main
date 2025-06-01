@@ -59,8 +59,6 @@ body {
   padding: 20px 10px;
   width: 100%;
   gap: 5px;
-  display: flex;
-  align-items: center;
 }
 
 .order__content-price h2 {
@@ -86,9 +84,7 @@ body {
 }
 
 .order__price {
-  display: flex;
   gap: 10px;
-  align-items: center;
 }
 
 .order__change {
@@ -98,8 +94,6 @@ body {
 .order__content-payment__confirmation {
   width: 100%;
   gap: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .payment__button--proceed {
