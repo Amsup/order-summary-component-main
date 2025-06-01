@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display";
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+img {
+    max-width: 100%;
+   
+}
+
+p {
+    font-size: var(--pr-size);
+}
+
+h1, h2, h3, h4, h5, h6, p, button, a {
+    margin: 0;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
